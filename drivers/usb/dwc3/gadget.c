@@ -26,6 +26,7 @@
 #include <linux/io.h>
 #include <linux/list.h>
 #include <linux/dma-mapping.h>
+#include <linux/usblog_proc_notify.h>
 
 #include <linux/usb/ch9.h>
 #include <linux/usb/gadget.h>
