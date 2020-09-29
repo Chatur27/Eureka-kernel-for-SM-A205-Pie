@@ -17,7 +17,6 @@
 #include "exynos7884B-a20_can_single_gpio_03.dtsi"
 #include "exynos7884B-a20_fingerprint_00.dtsi"
 #include "exynos7884B-a20-sensor-r00.dtsi"
-#include "display-lcd_a20_can_single.dtsi"
 
 / {
 	compatible = "samsung,A20 CAN SINGLE 03", "samsung,EXYNOS7884B";
@@ -127,3 +126,6 @@
 	};
 };
 
+&dsim_0 {
+	lcd_info = <&s6e8fc0_575>;
+};
